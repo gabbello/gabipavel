@@ -80,9 +80,20 @@ body {
 
 .achievement-list, .skills-list, .role ul{margin-top:10px;padding-left:20px}
 
-.role{background:#fbfdff;border:1px solid #eef4fb;padding:16px;margin-bottom:16px;border-radius:6px}
+..role{background:#fbfdff;border:1px solid #eef4fb;padding:16px;margin-bottom:16px;border-radius:6px}
 
 .role-title{font-size:16px;font-weight:700;color:#0b2340;margin-bottom:8px}
+.role-title a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(11, 116, 222, 0.65);
+    transition: color 150ms ease, border-color 150ms ease;
+}
+.role-title a:hover,
+.role-title a:focus {
+    color: #064a8f;
+    border-color: rgba(11, 116, 222, 0.95);
+}
 .role-date{color:var(--muted);font-weight:600;margin-left:8px;font-size:13px}
 
 ul li{margin-bottom:8px}
