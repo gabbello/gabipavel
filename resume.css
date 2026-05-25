@@ -11,7 +11,7 @@
 body {
     font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     background: var(--bg);
-    color: #222;
+    color: #333;
     margin: 0;
     padding: 28px;
     -webkit-font-smoothing:antialiased;
